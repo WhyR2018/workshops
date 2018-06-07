@@ -1,7 +1,10 @@
 ---
 title: "[Why R? 2018](http://whyr2018.pl/) workshops"
 subtitle: "The preference registration"
-output: html_document
+output: 
+  html_document: 
+    toc: yes
+    css: toc.css
 ---
 
 ```{r setup, include=FALSE}
@@ -15,7 +18,7 @@ See you at the venue!
 
 _Please note that RLadies workshop is a free accompanying event that will take place in a separate building. We invite all participants that start their journey with R!_
 
-# Proposed workshops
+# Why R? 2018 workshops
 
 ```{r, child = 'descriptions/04_Responding_to_analysis_and_communication_data_science_the_r_way.Rmd'}
 
