@@ -9,15 +9,13 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 During the first day of Why R? 2018 conference, 2nd July 2018,  we are more than pleased to proposed following set of workshops.
-Below you can find the plan and descriptions. *Please use the [Google preference registration form](https://goo.gl/forms/nOOkJ3L7fOtZMe3E2) so we will prepare proper rooms sizes for each of considered workshops.*
+Below you can find the plan and descriptions. *Please use the [Google preference registration form](https://goo.gl/forms/nOOkJ3L7fOtZMe3E2) so we will prepare proper rooms sizes for each of considered workshops.* Select up to 3 workshops. From those results we would then schedule the most optmial time locations for workshops.
 
 See you at the venue!
 
-<img src="img/schedule.JPG">
-
 _Please note that RLadies workshop is a free accompanying event that will take place in a separate building. We invite all participants that start their journey with R!_
 
-# Proposed morning workshops {.tabset .tabset-fade}
+# Proposed workshops
 
 ```{r, child = 'descriptions/04_Responding_to_analysis_and_communication_data_science_the_r_way.Rmd'}
 
@@ -36,9 +34,6 @@ _Please note that RLadies workshop is a free accompanying event that will take p
 ```{r, child = 'descriptions/03_DALEX.Rmd'}
 
 ```
-
-
-# Proposed afternoon workshops {.tabset .tabset-fade}
 
 
 ```{r, child = 'descriptions/01_constructing_scales_from_survey_questions.Rmd'}
