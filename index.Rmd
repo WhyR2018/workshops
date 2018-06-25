@@ -1,6 +1,5 @@
 ---
 title: "[Why R? 2018](http://whyr2018.pl/) workshops"
-subtitle: "The preference registration"
 output: 
   html_document: 
     toc: yes
@@ -12,11 +11,11 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 During the first day of Why R? 2018 conference, 2nd July 2018,  we are more than pleased to proposed following set of workshops.
-Below you can find the plan and descriptions. To optimally schedule all workshops, we will send the workshop preference form to all registered participants.
-
-See you at the venue!
+Below you can find the plan and descriptions. See you at the venue!
 
 _Please note that RLadies workshop is a free accompanying event that will take place in a separate building. We invite all participants that start their journey with R!_
+
+> The plan of workshops (rooms and hours) is available here - https://whyr2018.github.io/plan/workshop_plans/)
 
 # Why R? 2018 workshops
 
