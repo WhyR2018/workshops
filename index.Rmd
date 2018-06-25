@@ -20,7 +20,7 @@ _Please note that RLadies workshop is a free accompanying event that will take p
 
 # Why R? 2018 workshops
 
-```{r, child = 'descriptions/04_Responding_to_analysis_and_communication_data_science_the_r_way.Rmd'}
+```{r, child = 'descriptions/04_Maps.Rmd'}
 
 ```
 
