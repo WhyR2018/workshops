@@ -15,13 +15,19 @@ In this workshop you will get answers for the following questions:
 - How to use pre-trained models and perform fine-tuning ?
 - How to use callbacks ?
 
-Please make sure to bring your laptop including an up to date R version, RStudio and install Keras:
+Please make sure to bring your laptop including an up to date R version, RStudio and install required packages:
+1. dplyr
+2. ggplot2
+3. gridExtra
+4. keras
 
+After installing keras package install keras and tensorflow:
 _Setup Keras (Make sure to install required prerequisites, before installing Keras using the commands below)_
 
 ```{r, eval=FALSE}
+library(keras)
 install_keras() # CPU version 
-# install_keras(tensorflow = "gpu") # GPU version (recommended)
+install_keras(tensorflow = "gpu") # GPU version (recommended)
 ```
-
+Clone the repository: https://github.com/maju116/WhyR2018_keras
 
