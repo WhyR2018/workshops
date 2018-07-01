@@ -127,6 +127,7 @@ $(document).ready(function () {
 <li><a href="#why-r-2018-workshops">Why R? 2018 workshops</a><ul>
 <li><a href="#maps-in-r">Maps in R</a></li>
 <li><a href="#idash---make-your-r-slides-awesome-with-xaringan">iDash - Make your R slides awesome with xaringan</a></li>
+<li><a href="#preparation">Preparation</a></li>
 <li><a href="#jumping-rivers---shiny-basics">Jumping Rivers - Shiny Basics</a></li>
 <li><a href="#dalex---descriptive-machine-learning-explanations">DALEX - Descriptive mAchine Learning EXplanations</a></li>
 <li><a href="#constructing-scales-from-survey-questions">Constructing scales from survey questions</a></li>
@@ -148,13 +149,40 @@ $(document).ready(function () {
 <h2>Maps in R</h2>
 <p><strong>Instructor: Piotr Sobczyk</strong></p>
 <p>Creating spatial data visualization is one of the coolest elements in the R toolbox. In the workshop I shall show you tips to follow, pitfalls to avoid and hacks that might be either one of them :) Starting from a basic plot function, we will cover ggplot2 and finish with R packages that use interactive javascript libraries. You will get familiar with the full process from finding the right data, its processing in R up to preparing final data to plot.</p>
+<p>I suggest to install the following packages in advance: c(‘dplyr’, ‘tidyr’, ‘sf’, ‘ggplot2’, ‘ggmap’,‘ggthemes’, ‘animation’, ‘leaflet’, ‘rnaturalearth’).</p>
+<p>Shorty a repo with full workshop material will be available.</p>
 </div>
 <div id="idash---make-your-r-slides-awesome-with-xaringan" class="section level2">
 <h2>iDash - Make your R slides awesome with xaringan</h2>
-<p><strong>Instructor: Mikołaj Olszewski (iDash)</strong></p>
+<p><strong>Instructor: Mikołaj Olszewski &amp; Mikołaj Bogucki (iDash)</strong></p>
 <p>Preparing a slide deck with the results of your research seem to be quite straightforward. You produce all the plots and tables in R and just paste them into PowerPoint, right? Or you might have gone a bit further and already used RMarkdown with ioslides, Slidy or Beamer. Those technologies however have many drawbacks. Their default look is quite outdated and it’s hard to customise it and make each slide look exactly as you wanted. This might be especially problematic in case of companies that needs to follow strict brand guidelines.</p>
 <p>This hands-on workshop will introduce participants to a different package called xaringan that solves all the issues. It allows to customise each slide entirely to suit needs of the most demanding users. Since it also uses RMarkdown, it allows to produce not only eye-catching but also reproducible results. Moreover, it allows to preview your slides dynamically in RStudio making your work much easier. It’s also relatively easy to export the slide deck (natively in HTML) to a pixel perfect PDF.</p>
 <p>Join us if you want to learn how make your next R slide deck awesome!</p>
+</div>
+<div id="preparation" class="section level2">
+<h2>Preparation</h2>
+<p>We kindly ask participants to bring their own laptops with the following software installed:</p>
+<ul>
+<li>Recent version of R (at least 3.3)</li>
+<li>Recent version of RStudio (preferably the newest stable one)</li>
+<li>Recent version of Chrome (preferably the newest one)</li>
+</ul>
+<p>R packages required for the workshops:</p>
+<ul>
+<li>xaringan (0.6)</li>
+<li>rmarkdown (1.10)</li>
+<li>leaflet</li>
+<li>plotly</li>
+<li>ggplot2</li>
+<li>DT</li>
+</ul>
+<p>Those packages can be installed by running the following script:</p>
+<pre><code>install.packages(&quot;xaringan&quot;)
+install.packages(&quot;rmarkdown&quot;)
+install.packages(&quot;leaflet&quot;)
+install.packages(&quot;plotly&quot;)
+install.packages(&quot;ggplot2&quot;)
+install.packages(&quot;DT&quot;)</code></pre>
 </div>
 <div id="jumping-rivers---shiny-basics" class="section level2">
 <h2>Jumping Rivers - Shiny Basics</h2>
